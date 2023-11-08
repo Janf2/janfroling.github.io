@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+  background-color: rgb(246, 246, 246);
+}
+
+p {
+  font-family: Roboto, Arial;
+  /* Arial bruges her som backupfont til Roboto, hvis Roboto ikke kan indlæses */
+  margin-top: 0;
+  margin-bottom: 0;
+  /* tekstparagraffer kommer per default med top og bund margen */
+}
+
+body {
+  margin: 0;
+}
+
+/* margin kommer med default space, så det sættes her til 0 for hele body'en for at fjerne det */

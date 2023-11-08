@@ -1,0 +1,235 @@
+    body {
+    font-family: broadway;
+}
+
+
+/*navbar*/
+
+.transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler-icon {
+    border: 5px solid black;
+    padding: 30px;
+    background-color: #c54c00;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #c54c00!important;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.navbar a:hover {
+    color: whitesmoke!important;
+}
+
+
+/*end of navbar*/
+
+header {
+    height: 100vh;
+    background: url(imgs/kurv2.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center {
+    height: 100vh;
+    color: #c54c00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid #09218a;
+    margin: 0px auto 20px auto;
+    /*skift 0px til 350px*/
+}
+
+.banner-center a {
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid #09218a;
+    color: #c54c00;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner-center a:hover,
+.banner a:focus {
+    color: #09218a;
+    background-color: #c54c00;
+}
+
+
+/*end of banner*/
+
+
+/*title*/
+
+.title {
+    margin: 20px 0 40px 0;
+    color: #c54c00;
+    ;
+}
+
+.title-underline {
+    width: 150px;
+    border: 3px solid #09218a;
+    margin: 0px auto 10px auto;
+}
+
+
+/* end of title*/
+
+.hvid {
+    color: white;
+}
+
+
+/*overblik section*/
+
+#overblik {
+    padding: 40px;
+}
+
+#overblik .fa {
+    font-size: 100px;
+    color: #c54c00;
+    margin-bottom: 10px;
+}
+
+#overblik h2 {
+    margin-bottom: 10px;
+}
+
+
+/*end of overblik section*/
+
+
+/*om*/
+
+#om {
+    background-color: #213235;
+}
+
+#om .pic {
+    height: 600px;
+    background: url(imgs/kurv.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #213235;
+}
+
+#om .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*end of om*/
+
+
+/*udsagn*/
+
+#udsagn {
+    background-color: #213235;
+    color: #f2f1f1;
+}
+
+.left {
+    padding: 0px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#udsagn .fa {
+    margin: 5px;
+    font-size: 20px;
+    color: #c54c00;
+}
+
+
+/*end of udsagn*/
+
+
+/*footer*/
+
+#footer {
+    padding: 40px;
+    color: #acacbd;
+    background-color: #111111;
+}
+
+#footer .title-underline {
+    margin-bottom: 40px;
+}
+
+#footer h2 {
+    margin: 20px;
+}
+
+#footer p {
+    font-size: 20px;
+}
+
+#footer .websites a {
+    text-decoration: none!important;
+    color: #c54c00;
+    font-size: 20px;
+}
+
+#footer .websites a:hover {
+    color: #d1d1e0;
+}
+
+#footer hr {
+    background-color: #ededed;
+}
+
+.lower-row {
+    margin-top: 40px;
+}
+
+#footer .copyrights h3 {
+    padding: 40px 0;
+    color: #587d79;
+}
+
+
+/*end of footer*/
+
+
+/*media queries*/
+
+@media screen and (max-width:800px) {
+    .banner-center h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #udsagn .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+    /*end of media queries*/
